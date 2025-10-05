@@ -10,4 +10,4 @@ double x = double.Parse(Console.ReadLine());
 
 double b = (Math.Pow(1 / Math.Tan(Math.Pow(a, 3) * Math.PI / 180), 3));
 double c = (Math.Pow(Math.Atan(a), 2) * Math.PI / 180);
-Console.WriteLine($"J={(b+c) / (Math.Sqrt(Math.Pow(y, Math.Tan(x)))):f2}");
+Console.WriteLine($"J={(b+c) / (Math.Sqrt(Math.Pow(y, Math.Tan(x)* Math.PI / 180))):f2}");
